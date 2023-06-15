@@ -170,7 +170,7 @@ if __name__ == "__main__":
     document_chunks = text_to_docs(cleaned_text_pdf, metadata)
 
     # Optional: Reduce embedding cost by only using the first 23 pages
-    document_chunks = document_chunks[:70]
+    # document_chunks = document_chunks[:70]
 
     # Step 3 + 4: Generate embeddings and store them in DB
     embeddings = OpenAIEmbeddings()
