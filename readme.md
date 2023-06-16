@@ -12,6 +12,14 @@ You can currently test the ingestor that is just a basic LangChain implementatio
 
 I added a Querry-Chat-to-PDF bot so you can play with the data from the ingestor. Enojoy! 🥹
 
+### to run:
+
+1. Change path to your file path in ingestor.py
+2. run: pipenv shell
+3. run: python ingestor.py
+4. after ingestion is complete run: python totem.py to try the chatbot with your data
+
+
 
 ### 1. Building a Text Ingestor
 
