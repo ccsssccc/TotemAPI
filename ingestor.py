@@ -29,17 +29,6 @@
    - You can use a database (e.g., SQLite, MySQL, PostgreSQL) or a data structure like a list of dictionaries, depending on your needs.
    - Implement the logic to store the extracted data in the chosen data storage solution.
 
-6. **Error Handling:**
-   - Implement error handling mechanisms to gracefully handle potential issues during the ingestion process.
-   - Handle file-not-found errors, read errors, or any other exceptions that may arise.
-   - Return appropriate error messages or raise exceptions to indicate and handle errors.
-
-7. **Testing and Debugging:**
-   - Develop test cases to ensure the correctness of your ingestion script.
-   - Test with various text files, including files with different formats, structures, and sizes.
-   - Use logging or print statements to debug and track the execution flow for troubleshooting.
-
-Remember, these steps provide a general framework for building the ingestor script. You may need to adapt and refine them based on your specific requirements and the complexity of your ingestion process.
 
 """
 
