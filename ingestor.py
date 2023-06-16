@@ -157,7 +157,7 @@ if __name__ == "__main__":
     load_dotenv()
 
     # Step 1: Parse PDF
-    file_path = "/Users/kinuhero/Documents/CODE23/Totem/TotemAPI/tree.pdf"
+    file_path = "/Users/user/Documents/CODE23/Totem/TotemAPI/tree.pdf"
     raw_pages, metadata = parse_pdf(file_path)
 
     # Step 2: Create text chunks
